@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# media: original photos stay local, only the curated web-sized selection is committed
+/src/media/*
+!/src/media/site/

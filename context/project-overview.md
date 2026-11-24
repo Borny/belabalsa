@@ -211,12 +211,12 @@ flowchart LR
 
 ### Open questions
 
-- [ ] **Brand:** logo, colours, typography? Are there existing brand assets?
-- [ ] **Content:** who provides the photos, videos and bio, and by when? Is professional-quality media available for every section?
+- [ ] **Brand:** colours, typography? _No logo yet._
+- [ ] **Content:** photos provided in `src/media/` (a selection will be used for now). Still needed: videos and bio. Is media available for every section?
 - [ ] **Acting:** the Problem section lists acting, but the MVP has no Acting page. Is it covered by Home, or should it be added later?
 - [ ] **Cabaret & Singing:** what's the specific content for each (videos, dates, venues)?
 - [ ] **Proof of activity:** add a news / upcoming-shows block, or is that post-MVP?
-- [ ] **Domain name:** is `belabalsa.com` (or similar) available?
+- [x] **Domain name:** `belabalsa.com` acquired.
 - [ ] **Contact form:** where should submissions go?
 - [ ] **Translations:** who translates the text into EN and PT?
 - [ ] **Legal:** is a privacy notice needed for the contact form (French audience, GDPR)?

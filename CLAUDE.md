@@ -36,6 +36,7 @@ There is no test framework set up.
 - Route types are generated globally: layouts use `LayoutProps<"/">` (and pages `PageProps<...>`) without imports.
 - **Tailwind CSS v4.3, CSS-only config.** Tailwind is loaded through the `@tailwindcss/turbopack` loader configured in `next.config.ts` (no PostCSS config). Never create `tailwind.config.*`; put theme tokens in `@theme` in `src/app/globals.css`.
 - Path alias `@/*` → `src/*`.
+- **Media:** original photos live in `src/media/` and are git-ignored (too heavy). Only the curated, web-sized selection in `src/media/site/<section>/` is committed (JPG, ~2500px long edge, simple kebab-case names). Import them statically into `next/image`.
 - The README's stack list mentions React Player, React Icons, React Router, React Slick and React YouTube, but none are installed yet (and React Router should not be needed with the App Router). Add dependencies only when actually used.
 
 ## Coding standards (from `context/coding-standards.md`)
