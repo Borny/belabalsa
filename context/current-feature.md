@@ -8,7 +8,7 @@ Home page
 
 <!-- Not Started|In Progress|Completed -->
 
-In Progress
+Completed
 
 ## Goals
 
@@ -27,6 +27,7 @@ In Progress
 
 - First impression of the site: photos and videos of Bela only, "WOAW" feel (see visual reference in @context/project-overview.md)
 - Full spec: @context/features/home-page.md
+- Left for later: wire the contact form to a mail service, replace the placeholder email in `src/lib/site.ts`, build the Chorégraphe / Chant / Cabaret / À propos pages (nav links 404 until then)
 
 ## History
 
@@ -34,3 +35,4 @@ In Progress
 
 - Project setup and boilerplate cleanup
 - Media folder setup (originals git-ignored, curated photos in `src/media/site/<section>/`)
+- Home page (top bar, hero, skill sections, contact section with form UI and Instagram link)
